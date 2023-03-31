@@ -1,0 +1,8 @@
+build:
+  gpu: false
+  python_version: "3.9"
+  python_packages:
+    - "torch"
+    - "transformers"
+    - "sentence-transformers"
+predict: encode.py:Encoder
